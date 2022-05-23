@@ -1,0 +1,134 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+
+.navbar ul li a {
+    color:#000;
+}
+
+.navbar ul li a:hover {
+    color: $secondary;
+}
+
+.navbar ul button {
+    background: $secondary;
+    color: white;
+    border: 2px solid $secondary;
+}
+
+.navbar ul button:hover {
+    background: white;
+    color: $secondary;
+    border: 2px solid $secondary;
+}
+
+.nav-tabs .nav-link {
+    color: grey;
+    border-bottom: 1px solid grey;
+}
+/*.nav-tabs li.active a {
+    border-bottom: 5px solid $secondary;
+    color: black;
+}*/
+.nav-tabs .nav-link:hover {
+    color: $secondary;
+}
+.accordion-flush .accordion-item .accordion-button {
+    border: none; 
+    box-shadow: none;
+}                       
+
+.accordion .accordion-button {
+    color: black;
+    font-style: bold;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+}
+.accordion .accordion-button:hover {
+    color:red;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+}
+
+.accordion .accordion-button:not(.collapsed) {
+    background-color: white;
+    color: black;
+    font-style: bold;
+    border: none;
+    box-shadow: none;
+}
+.accordion-button:focus {
+    box-shadow: none;
+    border: none;
+}
+$accordion-button-icon:  url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5265E1" stroke-width="3" d="M 1 1 l 8 8 l 8 -8" /></svg>');
+$accordion-button-active-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#FA5959" stroke-width="3" d="M 1 1 l 8 8 l 8 -8" /></svg>'); 
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+.btn-primary { 
+    background: $primary;
+    color: white;
+    border: 2px solid $primary;
+}
+
+.btn-primary:hover { 
+    background: white;
+    color: $primary;
+    border: 2px solid $primary;
+}
+
+.btn-light {
+    background: $light;
+    color: black;
+    border: 2px solid $light;
+}
+.btn-light:hover {
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.mancha {
+    background: $primary;
+    width: 200px;
+    height: 200px;
+}
+
+.nav-tabs {
+    border-bottom: 0px;
+}
+.nav-tabs .nav-link:focus {
+    color: black;
+    border-bottom: 5px solid $secondary;
+}
+.nav-tabs li.active a {
+    border-bottom: 5px solid $secondary;
+    color: black;
+}
+.card-img-top {
+    width: 30%; 
+}
+.card {
+    -webkit-box-shadow: 0px 28px 49px -24px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 28px 49px -24px rgba(0,0,0,0.75);
+    box-shadow: 0px 28px 49px -24px rgba(0,0,0,0.75);
+    border: none;    
+}
+
+.mancha1 {
+    background-color: #5265E1;
+    width: 75%;
+    height: 50%;
+    border-bottom-left-radius: 50%;
+    z-index: -1;
+}
+
+.mancha2 {
+    background-color: #5265E1;
+    width: 75%;
+    height: 50%;
+    border-bottom-right-radius: 50%;
+    z-index: -1;
+}
